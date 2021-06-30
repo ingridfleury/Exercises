@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using ObjectComposition.Entities.Enums
 
 namespace ObjectComposition.Entities
 {
-    class Workers
+    class Worker
     {
         public int Id { get; set; }
         public string Name { get; set; }
