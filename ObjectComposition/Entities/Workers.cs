@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ObjectComposition
+namespace ObjectComposition.Entities
 {
-    class Worker
+    class Workers
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public WorkerLevel Level { get; set; }
         public double BaseSalary { get; set; }
+
 
     }
 }
